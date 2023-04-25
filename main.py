@@ -8,7 +8,7 @@ display_h = 500  #увеличь вдвое
 
 win = pygame.display.set_mode((display_w, display_h))
 
-tank_size = 34  #увеличь вдвое
+tank_size = 68  #увеличь вдвое
 tank_img_0 = pygame.image.load("tank_0.png")
 tank_img_0 = pygame.transform.scale(tank_img_0, (tank_size, tank_size))
 tank_img_rotate_0 = tank_img_0
